@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="portfolio_style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#skills">My Skills</a>
+            <a href="#projects">Latest Projects</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+    </header>
+
+
+    <section class="home" id="home">
+        <div class="homecontent">
+            <h3>Hello, It's Me</h3>
+            <h1>Shivani Prasad</h1>
+            <h3>And I'm a <span>Frontend Web Developer</span></h3>
+            <p>Enthusiastic Frontend Developer with skills in Java. 
+                Proficient in problem-solving and communication skills. 
+                Passionate about learning new technologies and delivering efficient solutions.</p>
+            <div class="socialmedia">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#"><i class='bx bxl-telegram' ></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="home-image.jpg" alt="">
+        </div>
+        
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skill-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Familiar with frontend web development, including HTML, CSS, and JavaScript. 
+                    Have hands-on experience with building basic responsive web pages.
+                     Continuously improving my skills to create better user interfaces and enhance website functionality. 
+                     Eager to learn and adapt to new web technologies.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="skill-box">
+                <i class='bx bxl-java' ></i>
+                <h3>Core Java</h3>
+                <p>Have a solid understanding of Core Java concepts, including object-oriented programming (OOP), data structures, and basic algorithms. 
+                    Familiar with writing efficient code for problem-solving. 
+                    Have hands-on experience with Java fundamentals and continuously working on improving my coding skills. 
+                    </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="skill-box">
+                <i class='bx bx-data' ></i>
+                <h3>SQL</h3>
+                <p>Familiar with SQL fundamentals, including database design, writing queries, and data manipulation. 
+                    Have hands-on experience on working with relational databases. 
+                    Continuously improving my understanding of database management, query optimization and eager to learn advanced SQL concepts. 
+                    </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="project-container">
+            <div class="project-box">
+                <i class='bx bx-calculator'></i>
+                <h3>Calculator</h3>
+                <p>Developed a simple calculator using Core Java concepts, implementing object-oriented programming principles. 
+                    The application supports basic arithmetic operations like addition, subtraction, multiplication, and division. 
+                    Designed a user-friendly console-based interface for input and output. 
+                    </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="project-box">
+                <i class='bx bx-game'></i>
+                <h3>Tic-Tac-Toe Game</h3>
+                <p>Developed a responsive Tic-Tac-Toe game using HTML, CSS, and JavaScript. 
+                    Implemented interactive gameplay with real-time win detection and a user-friendly interface. 
+                    Used JavaScript to handle game logic and dynamic updates.
+                    Focused on improving my frontend skills while building this project</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="project-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>Clone Website</h3>
+                <p>Developed a static Amazon clone website using HTML and CSS to replicate the layout and design of the original site. 
+                    Focused on creating a visually accurate homepage with responsive design elements. 
+                    This project helped me improve my frontend skills and understand the fundamentals of website structuring and styling</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Contact No.">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Write your message here"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Thank you for scrolling..</p>
+            
+        </div>
+        <div class="footer-icon">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    <script src="p_script.js"></script>
+</body>
+</html>
